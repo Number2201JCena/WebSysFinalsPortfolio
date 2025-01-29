@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(230, 255, 193);
+}
+
+button {
+    align-items: center;
+    background-color: rgb(255, 255, 214);
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    justify-content: center;
+    letter-spacing: .4px;
+    line-height: 1;
+    max-width: 100%;
+    outline-width: 100px;
+    outline-color: black;
+    outline-style: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:active {
+    outline: 0;
+  }
+  
+  button:hover {
+    outline: 0;
+  }
+  
+  button span {
+    transition: all 200ms;
+  }
+  
+  button:hover span {
+    transform: scale(.9);
+    opacity: .75;
+  }
+  
+  @media screen and (max-width: 991px) {
+    button {
+      font-size: 15px;
+      height: 50px;
+    }
+  
+    button span {
+      line-height: 50px;
+    }
+  }
+  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+.description-container{
+    background-color: rgb(255, 255, 214);
+    padding: 20px;
+    border: 0;
+    border-radius: 100px;
+    border-color: black;
+    outline-width: 100px;
+    outline-color: black;
+    outline-style: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 10, 50);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
